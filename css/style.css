@@ -1,0 +1,77 @@
+/* Gerais*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  text-size-adjust: 10px;
+}
+
+.row {
+  margin: 0;
+}
+.container {
+  padding: 70px 0;
+}
+p,
+li {
+  color: rgb(130, 130, 130);
+  font-size: 14px;
+}
+/* NAVBAR*/
+header,
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 75px;
+}
+.navbar-brand {
+  padding: 0;
+  color: #fff;
+}
+.navbar-brand:hover {
+  color: #fff;
+}
+.navbar-links a {
+  width: 100% !important;
+  color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem, 8rem;
+}
+.fixed-top {
+  position: relative !important;
+}
+
+.barra-central {
+  width: auto;
+}
+/* mapa*/
+#map {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  margin-left: 0%;
+  margin-right: 0%;
+  display: flex;
+  color: black;
+  border: 3px;
+  border-color: black;
+}
+/* body*/
+.p1 {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font: bold;
+}
+/* body*/
+footer {
+  color: blue;
+  align-items: center;
+  display: flex;
+  height: 53px;
+  justify-content: center;
+}
